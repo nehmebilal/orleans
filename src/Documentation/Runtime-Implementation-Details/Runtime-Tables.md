@@ -102,7 +102,7 @@ Silo metrics table contains a small set of per-silo important key performance me
 
 ## Clients Metrics table
 
-Silo metrics table containes a small set of per-Orleans-client important key performance metrics. Each client has one row,  periodically updated in-place by its client. Client metrics are essentilay a subset of silo metrics ([`ClientMetricsData `](https://github.com/dotnet/orleans/blob/master/src/Orleans/AzureUtils/ClientMetricsTableDataManager.cs#L38)).
+Silo metrics table contains a small set of per-Orleans-client important key performance metrics. Each client has one row,  periodically updated in-place by its client. Client metrics are essentilay a subset of silo metrics ([`ClientMetricsData `](https://github.com/dotnet/orleans/blob/master/src/Orleans/AzureUtils/ClientMetricsTableDataManager.cs#L38)).
 
 1. *PartitionKey* - DeploymentId
 2. *RowKey* - Address
